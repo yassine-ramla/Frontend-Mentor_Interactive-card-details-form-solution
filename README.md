@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/the-absolute-position-was-so-helpfull-for-this-challenge-DMS2sqtL5o)
+- Live Site URL: [live site URL](https://yassine-ramla.github.io/Frontend-Mentor_Interactive-card-details-form-solution/)
 
 ## My process
 
