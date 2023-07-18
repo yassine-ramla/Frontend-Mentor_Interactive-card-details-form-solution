@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="complete-state.css" />
+    <title>Frontend Mentor | Interactive card details form</title>
+  </head>
+  <body>
+    <header>
+      <div class="card-back">
+        <span id="cvc">000</span>
+        <img src="./images/bg-card-back.png" alt="" />
+      </div>
+      <div class="card-front">
+        <img src="./images/bg-card-front.png" alt="" />
+        <img src="./images/card-logo.svg" alt="" />
+        <span class="card-number">0000 0000 0000 0000</span>
+        <div class="name-date">
+          <span>Jane Appleseed</span>
+          <span>00/00</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <img src="./images/icon-complete.svg" alt="" />
+      <h1>THANK YOU!</h1>
+      <p>We've added your card details</p>
+      <button onclick="location.assign('..')">Continue</button>
+    </main>
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/yassine-ramla"
+        >yassine-ramla</a
+      >.
+    </footer>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const name = urlParams.get("name");
+      const cardNumber = urlParams.get("card-number");
+      const expMonth = urlParams.get("exp-month");
+      const expYear = urlParams.get("exp-year");
+      const cvc = urlParams.get("cvc");
+      document.getElementById("name").innerHTML = name;
+      document.getElementById("card-number").innerHTML = cardNumber;
+      document.getElementById("exp-date").innerHTML = `${expMonth}/${expYear}`;
+      document.getElementById("cvc").innerHTML = cvc;
+    </script>
+  </body>
+</html>
