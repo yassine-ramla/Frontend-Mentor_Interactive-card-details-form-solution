@@ -29,11 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot-active-state.jpg)
-![](./screenshot-mobile.jpg)
-![](./screenshot-copmlete-state.jpg)
-![](./screenshotcomplete-state-mobile.jpg)
+![](./screenshot.png)
+![](./screenshot-active-state.png)
+![](./screenshot-mobile.png)
+![](./screenshot-copmlete-state.png)
+![](./screenshotcomplete-state-mobile.png)
 
 ### Links
 
