@@ -32,8 +32,8 @@ Users should be able to:
 ![](./screenshot.png)
 ![](./screenshot-active-state.png)
 ![](./screenshot-mobile.png)
-![](./screenshot-copmlete-state.png)
-![](./screenshotcomplete-state-mobile.png)
+![](./screenshot-complete-state.png)
+![](./screenshot-complete-state-mobile.png)
 
 ### Links
 
