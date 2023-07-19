@@ -29,11 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
-![](./screenshot-active-state.png)
-![](./screenshot-mobile.png)
-![](./screenshot-complete-state.png)
-![](./screenshot-complete-state-mobile.png)
+![](screenshot-active-state.png) 
+![](screenshot-complete-state-mobile.png) 
+![](screenshot-complete-state.png) 
+![](screenshot-mobile.png) 
+![](screenshot.png)
 
 ### Links
 
@@ -74,6 +74,7 @@ what i've learnt from this challenge is when to use the absolute position and ho
   color: hsl(270, 3%, 87%);
 }
 ```
+
 and that will position the cvc span exatly on the position of the cvc in the image.
 
 ### Continued development
